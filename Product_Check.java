@@ -1,11 +1,11 @@
 public class Product_Check{
 	
 	public static void main(String args[]){
-		Product_info obj1 = new Product_info("1", "Laptop", 5, 100, "Electronics");
-		Product_info obj2 = new Product_info("2", "Phone", 2, 50,"Device" );
-		Product_info obj3 = new Product_info("3", "Smart Watch", 4 ,30, "Watch");
-		Product_info obj4 = new Product_info("4", "Dell", 3, 300, "Laptop");
-		Product_info obj5 = new Product_info("5", "HP", 6 , 400, "Laptop");
+		Product_info obj1 = new Product_info("Laptop", 5, 100, "Electronics");
+		Product_info obj2 = new Product_info("Phone", 2, 50,"Device" );
+		Product_info obj3 = new Product_info("Smart Watch", 4 ,30, "Watch");
+		Product_info obj4 = new Product_info("Dell", 3, 300, "Laptop");
+		Product_info obj5 = new Product_info("HP", 6 , 400, "Laptop");
 		
 
 		System.out.printf("%5s%20s%15s%14s%20s \n\n","ID","Name","Quantity","Price","Category");
